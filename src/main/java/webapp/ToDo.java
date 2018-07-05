@@ -2,6 +2,7 @@ package webapp;
 
 import java.util.Objects;
 
+/*class containing details */
 public class ToDo {
 
     private String activity;
