@@ -15,6 +15,7 @@ import java.sql.*;
 public class LoginServlet extends HttpServlet{
 
 	UserValid uservalid = new UserValid();
+	// Testing
 	//ToDoList todolist = new ToDoList();
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException,IOException {
 		req.setAttribute("mesg",req.getParameter("mesg"));
